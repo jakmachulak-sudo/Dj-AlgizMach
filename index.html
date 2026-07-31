@@ -87,7 +87,25 @@ padding:40px;
 text-align:center;
 background:#000;
 }
-</style>
+@keyframes pulse{
+
+0%{
+text-shadow:0 0 20px #00e5ff;
+transform:scale(1);
+}
+
+50%{
+text-shadow:0 0 50px #00e5ff,
+0 0 100px #00e5ff;
+transform:scale(1.05);
+}
+
+100%{
+text-shadow:0 0 20px #00e5ff;
+transform:scale(1);
+}
+
+}</style>
 
 </head>
 
@@ -107,7 +125,14 @@ background:#000;
 
 <div>
 
-<h1>ALGIZ</h1>
+<h1 style="font-size:90px;
+letter-spacing:12px;
+text-shadow:0 0 20px #00e5ff,
+0 0 40px #00e5ff,
+0 0 70px #00e5ff;
+animation:pulse 2s infinite;">
+ALGIZ
+</h1>
 
 <h2>DJ • PRODUCER • TECH HOUSE • BASS HOUSE</h2>
 
